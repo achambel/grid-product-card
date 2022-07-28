@@ -1,0 +1,32 @@
+:root {
+  --clr-white: hsl(0, 0%, 100%);
+  --clr-blackish: hsla(0, 0%, 0%, 0.7);
+  --clr-light-gray: hsla(0, 0%, 100%, 0.5);
+  --clr-firebrick: hsl(0, 68%, 42%);
+}
+
+.bg-white {
+  background-color: var(--clr-white);
+}
+
+.bg-blackish {
+  background-color: var(--clr-blackish);
+}
+
+.bg-light-gray {
+  background-color: var(--clr-light-gray);
+}
+
+.text-firebrick {
+  color: var(--clr-firebrick);
+}
+
+.rounded-top {
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.rounded-top-0 {
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
